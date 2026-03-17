@@ -43,13 +43,13 @@ The dev server runs over HTTPS by default: `https://localhost:3000`.
 
 ### Wallet connected state
 
-![Wallet connected](screenshots/Screenshot 2026-03-17 154032.png)
+![Wallet connected](/screenshots/1.png)
 
 Header shows truncated public key and a green Connected state.
 
 ### Successful testnet transaction
 
-![Successful transaction](screenshots/Screenshot 2026-03-17 154101.png)
+![Successful transaction](/screenshots/2.png)
 
 Example of a submitted transaction recorded on Testnet.
 
