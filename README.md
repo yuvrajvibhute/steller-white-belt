@@ -43,18 +43,17 @@ The dev server runs over HTTPS by default: `https://localhost:3000`.
 
 ### Wallet connected state
 
-![Wallet connected](<img width="1919" height="966" alt="Screenshot 2026-03-17 154032" src="https://github.com/user-attachments/assets/cecda5b2-4c12-41ad-8045-6d9222242c23" />)
+![Wallet connected](screenshots/Screenshot 2026-03-17 154032.png)
 
-Header shows truncated public key and a green `Connected` state.
+Header shows truncated public key and a green Connected state.
 
 ### Successful testnet transaction
 
-![Successful transaction](<img width="1919" height="909" alt="Screenshot 2026-03-17 154101" src="https://github.com/user-attachments/assets/0df9992f-b989-4e29-9cb2-12be251851c7" />)
+![Successful transaction](screenshots/Screenshot 2026-03-17 154101.png)
 
 Example of a submitted transaction recorded on Testnet.
 
 ---
-
 ## �🛠 Development notes
 
 - Change how many operations display by editing the `limit` prop passed to `<TransactionHistory />` in `Header.js`.
