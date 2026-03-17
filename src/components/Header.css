@@ -1,0 +1,80 @@
+.header {
+    background: #13151f;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #5865f218;
+    border: 1px solid #5865f240;
+    border-radius: 7px;
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--text);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Wallet chip */
+.wallet-chip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #1e2130;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 5px 5px 5px 10px;
+}
+
+.wallet-chip-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--success);
+    flex-shrink: 0;
+}
+
+.wallet-chip-key {
+    font-size: 11px;
+    color: var(--text-sub);
+}
+
+@media (max-width: 520px) {
+    .wallet-chip-key {
+        display: none;
+    }
+
+    .header-inner {
+        padding: 10px 14px;
+    }
+}
